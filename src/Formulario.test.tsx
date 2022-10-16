@@ -1,12 +1,13 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
+import Formulario from "./Formulario";
 
 // jest
 test('quando o input está vazio, novos participantes não podem ser adicionados', () =>{
     render(<Formulario />)
 
     //encontrar o input no DOM
-    const input = screen.getAllByPlaceholderText ('Insira os nomes dos participantes');
+    const input = screen.getByPlaceholderText ('Insira os nomes dos participantes');
     
     //encontrar o botão no DOM
     const botao = screen.getByRole('button')
