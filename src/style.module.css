@@ -1,11 +1,17 @@
 :root {
-    --azul: #4B69FD;
-    --creme: #FFF9EB;
-    --laranja: #FE652B;
-    --preto: #000;
-  }
+  --azul: #4B69FD;
+  --creme: #FFF9EB;
+  --laranja: #FE652B;
+  --preto: #000;
+}
 
-  :global(body) {
-	background: var(--creme);
-    color: var(--preto);
+:global(body) {
+  background: var(--creme);
+  color: var(--preto);
+  font-family: 'Poppins', sans-serif;
+}
+#root{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
