@@ -1,4 +1,6 @@
 import React from 'react';
+import './reset.module.css';
+import './style.module.css';
 
 const Formulario = () => {
     return (

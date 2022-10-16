@@ -1,0 +1,11 @@
+:root {
+    --azul: #4B69FD;
+    --creme: #FFF9EB;
+    --laranja: #FE652B;
+    --preto: #000;
+  }
+
+  :global(body) {
+	background: var(--creme);
+    color: var(--preto);
+}
