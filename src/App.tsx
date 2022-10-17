@@ -1,5 +1,5 @@
 import React from 'react';
-import Formulario from "./components/Formulario";
+import Formulario from "./components/Formulario/Formulario";
 
 const App = (): JSX.Element => {
   return (
