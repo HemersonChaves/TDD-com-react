@@ -1,6 +1,6 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
-import Formulario from "./Formulario";
+import Formulario from ".";
 
 // jest
 test('quando o input está vazio, novos participantes não podem ser adicionados', () =>{
